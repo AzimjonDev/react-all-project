@@ -1,15 +1,10 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import Button from "./companents/button/button";
-import Input from "./companents/input/input";
+import react from "react";
+import ReactDOM from "react-dom";
+import Counter from "./companent/counter";
 
-
-
-const root = ReactDOM.createRoot(document.getElementById("root"))
-
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-   <Button/>
-   <Input/>
+    <Counter />
   </div>
 );
